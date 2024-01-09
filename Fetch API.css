@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(53, 115, 117);
+}
+
+h1{
+    background-color: rgb(239, 234, 196);
+    color: black;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+p{
+    margin-top: 1rem;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+button{
+    margin-top: 0.5rem;
+    background-color:blue;
+    color: aliceblue;
+    height: 10vmin;
+    width: 36vmin;
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+
