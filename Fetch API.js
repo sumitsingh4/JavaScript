@@ -4,9 +4,9 @@
 
 // let promise = fetch(url,[options])
 
-let url = "https://cat-fact.herokuapp.com/facts";
-let catFact = document.querySelector("#fact");
-let btn = document.querySelector("#btn");
+// let url = "https://cat-fact.herokuapp.com/facts";
+// let catFact = document.querySelector("#fact");
+// let btn = document.querySelector("#btn");
 
 // const getFacts = async ()=>{
 //     console.log("Fetching data...");
@@ -33,24 +33,26 @@ let btn = document.querySelector("#btn");
 
 // using promise chain
 
-function getData(){
-    fetch(url).then((response)=>{
-        return response.json();
-    })
-    .then((data)=>{
-        console.log(data);
-        catFact.innerText = data[4].text;
-    })
-}
+// function getData(){
+//     fetch(url).then((response)=>{
+//         return response.json();
+//     })
+//     .then((data)=>{
+//         console.log(data);
+//         catFact.innerText = data[3].text;
+//     })
+// }
 
-btn.addEventListener("click",getData);
+// btn.addEventListener("click",getData);
 
 // AJAX - is Asynchronous JS & XML 
 // XML - data format used earlier
 // JSON - is JS object notation (data format used nowadays)
 // json() method - returns a second promise [first promise is already returned by fetch()] that resolves with the result of parsing (changing data format) the response body text as JSON. (Input is JSON, Output is JS object)
 
-//25:17
+//Requests and Response 
+
+// Project - Currency converter
 
 
 
